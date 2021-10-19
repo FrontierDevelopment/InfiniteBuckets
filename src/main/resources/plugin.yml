@@ -1,0 +1,12 @@
+name: InfiniteBuckets
+version: '${project.version}'
+main: com.frontiernetwork.infinitebuckets.InfiniteBuckets
+api-version: 1.17
+authors: [ MrDefined ]
+description: Infinite Buckets plugin for Frontier Network
+website: https://www.frontier-mc.com
+commands:
+  infinitebuckets:
+    description: InfiniteBuckets admin command
+    usage: /<command>
+    aliases: [ infinitebuckets, infinitebucket, ib, infbucket, infbuckets ]
