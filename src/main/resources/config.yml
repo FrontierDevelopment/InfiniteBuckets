@@ -1,7 +1,5 @@
 # InfiniteBuckets Spigot Plugin!
 # Create infinite Lava and Water buckets for all your needs!
-#
-# Register the costs you want for each bucket when using /inflava or /infwater
 lava:
   display: "&cInfinite Lava Bucket"
   lore:
