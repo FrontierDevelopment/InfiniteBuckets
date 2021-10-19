@@ -1,21 +1,17 @@
 # InfiniteBuckets Spigot Plugin!
-# Create infinite Lava and Water buckets for all your needs!
+# Give players infinite buckets of water or lava
 lava:
   display: "&cInfinite Lava Bucket"
   lore:
-    - "&7&oLegend says this lava bucket"
-    - "&7&owas enchanted by a nice young fairy"
-    - "&7&oto solve the drought that a tiny village"
-    - "&7&owas suffering"
+    - "&7&oTo infinity and beyond!"
+    - "&7&oThis lava bucket can NEVER run out!"
     - " "
-    - "&cThis is an Infinite Lava Bucket"
+    - "&cInfinite Uses"
 
 water:
   display: "&bInfinite Water Bucket"
   lore:
-    - "&7&oLegend says this water bucket"
-    - "&7&owas enchanted by a nice young fairy"
-    - "&7&oto solve the drought that a tiny village"
-    - "&7&owas suffering"
+    - "&7&oTo infinity and beyond!"
+    - "&7&oThis water bucket can NEVER run out!"
     - " "
-    - "&bThis is an Infinite Water Bucket"
+    - "&cInfinite Uses"
