@@ -26,7 +26,6 @@ public class ItemEvents implements Listener {
     {
         Player player = e.getPlayer();
         Block b = e.getBlock();
-        boolean isWaterLogged = false;
 
         int x = e.getBlock().getX();
         int y = e.getBlock().getY();
@@ -39,10 +38,10 @@ public class ItemEvents implements Listener {
         NamespacedKey infinite = new NamespacedKey(plugin, "infinite");
         PersistentDataContainer container = bucket.getItemMeta().getPersistentDataContainer();
 
-        // not an infinite bucket
+        // Checks if bucket is not an infinite bucket
         if (!container.has(infinite, PersistentDataType.INTEGER)) return;
 
-        // infinite water
+        //Check if block can be waterlogged
         if (container.get(infinite, PersistentDataType.INTEGER) == 0) {
             if(b.getBlockData() instanceof Waterlogged){
                 Waterlogged wl = (Waterlogged) b.getBlockData();

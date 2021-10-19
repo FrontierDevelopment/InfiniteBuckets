@@ -15,7 +15,6 @@ import java.util.List;
 public class Commands implements CommandExecutor, TabCompleter {
 
     private final InfiniteBuckets plugin;
-    private Object ConsoleCommandSender;
 
     public Commands(InfiniteBuckets plugin) {
         this.plugin = plugin;
