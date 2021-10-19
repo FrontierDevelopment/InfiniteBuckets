@@ -1,0 +1,5 @@
+com\frontiernetwork\infinitebuckets\commands\Commands.class
+com\frontiernetwork\infinitebuckets\item\ItemEvents.class
+com\frontiernetwork\infinitebuckets\utils\StringUtils.class
+com\frontiernetwork\infinitebuckets\item\ItemManager.class
+com\frontiernetwork\infinitebuckets\InfiniteBuckets.class
